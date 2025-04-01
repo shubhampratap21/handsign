@@ -43,7 +43,7 @@ class ASLTranslator:
 
 def main():
     st.set_page_config(page_title="Real-Time ASL Translator", layout="wide")
-    st.title("American Sign Language Translator 🤟")
+    st.title("Sign Language Translator 🤟")
     
     # Initialize translator
     if "translator" not in st.session_state:
